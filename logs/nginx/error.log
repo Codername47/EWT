@@ -1,0 +1,500 @@
+2022/02/05 07:53:54 [notice] 1#1: using the "epoll" event method
+2022/02/05 07:53:54 [notice] 1#1: nginx/1.21.6
+2022/02/05 07:53:54 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/02/05 07:53:54 [notice] 1#1: OS: Linux 5.10.60.1-microsoft-standard-WSL2
+2022/02/05 07:53:54 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/02/05 07:53:54 [notice] 1#1: start worker processes
+2022/02/05 07:53:54 [notice] 1#1: start worker process 23
+2022/02/05 07:53:54 [notice] 1#1: start worker process 24
+2022/02/05 07:53:54 [notice] 1#1: start worker process 25
+2022/02/05 07:53:54 [notice] 1#1: start worker process 26
+2022/02/05 07:53:54 [notice] 1#1: start worker process 27
+2022/02/05 07:53:54 [notice] 1#1: start worker process 28
+2022/02/05 07:54:02 [error] 24#24: *1 open() "/var/www/html/lol.css" failed (2: No such file or directory), client: 172.19.0.1, server: vasiukovich, request: "GET /lol.css HTTP/1.1", host: "vasiukovich"
+2022/02/05 07:54:54 [error] 24#24: *1 open() "/var/www/html/lol.css" failed (2: No such file or directory), client: 172.19.0.1, server: vasiukovich, request: "GET /lol.css HTTP/1.1", host: "vasiukovich"
+2022/02/05 07:55:06 [error] 24#24: *1 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.19.0.1, server: vasiukovich, request: "GET /favicon.ico HTTP/1.1", host: "vasiukovich", referrer: "http://vasiukovich/"
+2022/02/05 07:55:19 [error] 25#25: *4 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.19.0.1, server: vasiukovich, request: "GET /favicon.ico HTTP/1.1", host: "vasiukovich", referrer: "http://vasiukovich/lol.html"
+2022/02/05 07:55:22 [error] 26#26: *5 open() "/var/www/html/lol.efwe" failed (2: No such file or directory), client: 172.19.0.1, server: vasiukovich, request: "GET /lol.efwe HTTP/1.1", host: "vasiukovich"
+2022/02/05 07:55:22 [error] 27#27: *6 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.19.0.1, server: vasiukovich, request: "GET /favicon.ico HTTP/1.1", host: "vasiukovich", referrer: "http://vasiukovich/lol.efwe"
+2022/02/05 07:56:25 [error] 26#26: *5 open() "/var/www/html/lol.efwe" failed (2: No such file or directory), client: 172.19.0.1, server: vasiukovich, request: "GET /lol.efwe HTTP/1.1", host: "vasiukovich"
+2022/02/05 07:56:35 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/02/05 07:56:35 [notice] 24#24: gracefully shutting down
+2022/02/05 07:56:35 [notice] 23#23: gracefully shutting down
+2022/02/05 07:56:35 [notice] 27#27: gracefully shutting down
+2022/02/05 07:56:35 [notice] 26#26: gracefully shutting down
+2022/02/05 07:56:35 [notice] 27#27: exiting
+2022/02/05 07:56:35 [notice] 25#25: gracefully shutting down
+2022/02/05 07:56:35 [notice] 27#27: exit
+2022/02/05 07:56:35 [notice] 28#28: gracefully shutting down
+2022/02/05 07:56:35 [notice] 24#24: exiting
+2022/02/05 07:56:35 [notice] 28#28: exiting
+2022/02/05 07:56:35 [notice] 23#23: exiting
+2022/02/05 07:56:35 [notice] 26#26: exiting
+2022/02/05 07:56:35 [notice] 25#25: exiting
+2022/02/05 07:56:35 [notice] 24#24: exit
+2022/02/05 07:56:35 [notice] 28#28: exit
+2022/02/05 07:56:35 [notice] 23#23: exit
+2022/02/05 07:56:35 [notice] 26#26: exit
+2022/02/05 07:56:35 [notice] 25#25: exit
+2022/02/05 07:56:35 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2022/02/05 07:56:35 [notice] 1#1: worker process 23 exited with code 0
+2022/02/05 07:56:35 [notice] 1#1: worker process 24 exited with code 0
+2022/02/05 07:56:35 [notice] 1#1: worker process 27 exited with code 0
+2022/02/05 07:56:35 [notice] 1#1: signal 29 (SIGIO) received
+2022/02/05 07:56:35 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2022/02/05 07:56:35 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2022/02/05 07:56:35 [notice] 1#1: worker process 26 exited with code 0
+2022/02/05 07:56:35 [notice] 1#1: signal 29 (SIGIO) received
+2022/02/05 07:56:35 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2022/02/05 07:56:35 [notice] 1#1: worker process 25 exited with code 0
+2022/02/05 07:56:35 [notice] 1#1: worker process 28 exited with code 0
+2022/02/05 07:56:35 [notice] 1#1: exit
+2022/02/05 07:56:40 [emerg] 1#1: directive "error_page" is not terminated by ";" in /etc/nginx/conf.d/dev.conf:11
+2022/02/05 07:57:13 [notice] 1#1: using the "epoll" event method
+2022/02/05 07:57:13 [notice] 1#1: nginx/1.21.6
+2022/02/05 07:57:13 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/02/05 07:57:13 [notice] 1#1: OS: Linux 5.10.60.1-microsoft-standard-WSL2
+2022/02/05 07:57:13 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/02/05 07:57:13 [notice] 1#1: start worker processes
+2022/02/05 07:57:13 [notice] 1#1: start worker process 23
+2022/02/05 07:57:13 [notice] 1#1: start worker process 24
+2022/02/05 07:57:13 [notice] 1#1: start worker process 25
+2022/02/05 07:57:13 [notice] 1#1: start worker process 26
+2022/02/05 07:57:13 [notice] 1#1: start worker process 27
+2022/02/05 07:57:13 [notice] 1#1: start worker process 28
+2022/02/05 07:58:00 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/02/05 07:58:00 [notice] 26#26: gracefully shutting down
+2022/02/05 07:58:00 [notice] 25#25: gracefully shutting down
+2022/02/05 07:58:00 [notice] 23#23: gracefully shutting down
+2022/02/05 07:58:00 [notice] 23#23: exiting
+2022/02/05 07:58:00 [notice] 27#27: gracefully shutting down
+2022/02/05 07:58:00 [notice] 24#24: gracefully shutting down
+2022/02/05 07:58:00 [notice] 28#28: gracefully shutting down
+2022/02/05 07:58:00 [notice] 28#28: exiting
+2022/02/05 07:58:00 [notice] 26#26: exiting
+2022/02/05 07:58:00 [notice] 25#25: exiting
+2022/02/05 07:58:00 [notice] 23#23: exit
+2022/02/05 07:58:00 [notice] 27#27: exiting
+2022/02/05 07:58:00 [notice] 24#24: exiting
+2022/02/05 07:58:00 [notice] 28#28: exit
+2022/02/05 07:58:00 [notice] 26#26: exit
+2022/02/05 07:58:00 [notice] 25#25: exit
+2022/02/05 07:58:00 [notice] 27#27: exit
+2022/02/05 07:58:00 [notice] 24#24: exit
+2022/02/05 07:58:00 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/02/05 07:58:00 [notice] 1#1: worker process 25 exited with code 0
+2022/02/05 07:58:00 [notice] 1#1: signal 29 (SIGIO) received
+2022/02/05 07:58:00 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2022/02/05 07:58:00 [notice] 1#1: worker process 24 exited with code 0
+2022/02/05 07:58:00 [notice] 1#1: worker process 26 exited with code 0
+2022/02/05 07:58:00 [notice] 1#1: signal 29 (SIGIO) received
+2022/02/05 07:58:00 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2022/02/05 07:58:00 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2022/02/05 07:58:00 [notice] 1#1: worker process 23 exited with code 0
+2022/02/05 07:58:00 [notice] 1#1: worker process 27 exited with code 0
+2022/02/05 07:58:00 [notice] 1#1: signal 29 (SIGIO) received
+2022/02/05 07:58:00 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2022/02/05 07:58:00 [notice] 1#1: worker process 28 exited with code 0
+2022/02/05 07:58:00 [notice] 1#1: exit
+2022/02/05 07:58:07 [notice] 1#1: using the "epoll" event method
+2022/02/05 07:58:07 [notice] 1#1: nginx/1.21.6
+2022/02/05 07:58:07 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/02/05 07:58:07 [notice] 1#1: OS: Linux 5.10.60.1-microsoft-standard-WSL2
+2022/02/05 07:58:07 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/02/05 07:58:07 [notice] 1#1: start worker processes
+2022/02/05 07:58:07 [notice] 1#1: start worker process 22
+2022/02/05 07:58:07 [notice] 1#1: start worker process 23
+2022/02/05 07:58:07 [notice] 1#1: start worker process 24
+2022/02/05 07:58:07 [notice] 1#1: start worker process 25
+2022/02/05 07:58:07 [notice] 1#1: start worker process 26
+2022/02/05 07:58:07 [notice] 1#1: start worker process 27
+2022/02/05 07:59:01 [error] 22#22: *1 open() "/var/www/html/lol.efwe" failed (2: No such file or directory), client: 172.21.0.1, server: vasiukovich, request: "GET /lol.efwe HTTP/1.1", host: "vasiukovich"
+2022/02/05 07:59:28 [error] 22#22: *1 open() "/var/www/html/lol.ef" failed (2: No such file or directory), client: 172.21.0.1, server: vasiukovich, request: "GET /lol.ef HTTP/1.1", host: "vasiukovich"
+2022/02/05 07:59:29 [error] 22#22: *1 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.21.0.1, server: vasiukovich, request: "GET /favicon.ico HTTP/1.1", host: "vasiukovich", referrer: "http://vasiukovich/lol.ef"
+2022/02/05 07:59:40 [error] 24#24: *6 open() "/var/www/html/lol.ef" failed (2: No such file or directory), client: 172.21.0.1, server: vasiukovich, request: "GET /lol.ef HTTP/1.1", host: "vasiukovich"
+2022/02/05 07:59:40 [error] 24#24: *6 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.21.0.1, server: vasiukovich, request: "GET /favicon.ico HTTP/1.1", host: "vasiukovich", referrer: "http://vasiukovich/lol.ef"
+2022/02/05 07:59:55 [error] 26#26: *9 open() "/var/www/html/lol.ef" failed (2: No such file or directory), client: 172.21.0.1, server: vasiukovich, request: "GET /lol.ef HTTP/1.1", host: "vasiukovich"
+2022/02/05 08:02:33 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/02/05 08:02:33 [notice] 22#22: gracefully shutting down
+2022/02/05 08:02:33 [notice] 24#24: gracefully shutting down
+2022/02/05 08:02:33 [notice] 24#24: exiting
+2022/02/05 08:02:33 [notice] 23#23: gracefully shutting down
+2022/02/05 08:02:33 [notice] 27#27: gracefully shutting down
+2022/02/05 08:02:33 [notice] 26#26: gracefully shutting down
+2022/02/05 08:02:33 [notice] 25#25: gracefully shutting down
+2022/02/05 08:02:33 [notice] 22#22: exiting
+2022/02/05 08:02:33 [notice] 24#24: exit
+2022/02/05 08:02:33 [notice] 23#23: exiting
+2022/02/05 08:02:33 [notice] 27#27: exiting
+2022/02/05 08:02:33 [notice] 26#26: exiting
+2022/02/05 08:02:33 [notice] 25#25: exiting
+2022/02/05 08:02:33 [notice] 22#22: exit
+2022/02/05 08:02:33 [notice] 23#23: exit
+2022/02/05 08:02:33 [notice] 27#27: exit
+2022/02/05 08:02:33 [notice] 26#26: exit
+2022/02/05 08:02:33 [notice] 25#25: exit
+2022/02/05 08:02:33 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/02/05 08:02:33 [notice] 1#1: worker process 22 exited with code 0
+2022/02/05 08:02:33 [notice] 1#1: worker process 24 exited with code 0
+2022/02/05 08:02:33 [notice] 1#1: worker process 25 exited with code 0
+2022/02/05 08:02:33 [notice] 1#1: worker process 26 exited with code 0
+2022/02/05 08:02:33 [notice] 1#1: signal 29 (SIGIO) received
+2022/02/05 08:02:33 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2022/02/05 08:02:33 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2022/02/05 08:02:33 [notice] 1#1: worker process 23 exited with code 0
+2022/02/05 08:02:33 [notice] 1#1: worker process 27 exited with code 0
+2022/02/05 08:02:33 [notice] 1#1: exit
+2022/02/05 08:02:38 [emerg] 1#1: unexpected "}" in /etc/nginx/conf.d/dev.conf:12
+2022/02/05 08:03:32 [notice] 1#1: using the "epoll" event method
+2022/02/05 08:03:32 [notice] 1#1: nginx/1.21.6
+2022/02/05 08:03:32 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/02/05 08:03:32 [notice] 1#1: OS: Linux 5.10.60.1-microsoft-standard-WSL2
+2022/02/05 08:03:32 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/02/05 08:03:32 [notice] 1#1: start worker processes
+2022/02/05 08:03:32 [notice] 1#1: start worker process 23
+2022/02/05 08:03:32 [notice] 1#1: start worker process 24
+2022/02/05 08:03:32 [notice] 1#1: start worker process 25
+2022/02/05 08:03:32 [notice] 1#1: start worker process 26
+2022/02/05 08:03:32 [notice] 1#1: start worker process 27
+2022/02/05 08:03:32 [notice] 1#1: start worker process 28
+2022/02/05 08:03:36 [error] 23#23: *1 open() "/var/www/html/admin" failed (2: No such file or directory), client: 172.22.0.1, server: vasiukovich, request: "GET /admin HTTP/1.1", host: "vasiukovich"
+2022/02/05 08:05:37 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/02/05 08:05:37 [notice] 23#23: gracefully shutting down
+2022/02/05 08:05:37 [notice] 23#23: exiting
+2022/02/05 08:05:37 [notice] 24#24: gracefully shutting down
+2022/02/05 08:05:37 [notice] 24#24: exiting
+2022/02/05 08:05:37 [notice] 28#28: gracefully shutting down
+2022/02/05 08:05:37 [notice] 28#28: exiting
+2022/02/05 08:05:37 [notice] 26#26: gracefully shutting down
+2022/02/05 08:05:37 [notice] 27#27: gracefully shutting down
+2022/02/05 08:05:37 [notice] 27#27: exiting
+2022/02/05 08:05:37 [notice] 25#25: gracefully shutting down
+2022/02/05 08:05:37 [notice] 27#27: exit
+2022/02/05 08:05:37 [notice] 23#23: exit
+2022/02/05 08:05:37 [notice] 24#24: exit
+2022/02/05 08:05:37 [notice] 28#28: exit
+2022/02/05 08:05:37 [notice] 26#26: exiting
+2022/02/05 08:05:37 [notice] 25#25: exiting
+2022/02/05 08:05:37 [notice] 26#26: exit
+2022/02/05 08:05:37 [notice] 25#25: exit
+2022/02/05 08:05:37 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/02/05 08:05:37 [notice] 1#1: worker process 25 exited with code 0
+2022/02/05 08:05:37 [notice] 1#1: signal 29 (SIGIO) received
+2022/02/05 08:05:37 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2022/02/05 08:05:37 [notice] 1#1: worker process 23 exited with code 0
+2022/02/05 08:05:37 [notice] 1#1: worker process 24 exited with code 0
+2022/02/05 08:05:37 [notice] 1#1: worker process 26 exited with code 0
+2022/02/05 08:05:37 [notice] 1#1: worker process 28 exited with code 0
+2022/02/05 08:05:37 [notice] 1#1: signal 29 (SIGIO) received
+2022/02/05 08:05:37 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2022/02/05 08:05:37 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2022/02/05 08:05:37 [notice] 1#1: worker process 27 exited with code 0
+2022/02/05 08:05:37 [notice] 1#1: exit
+2022/02/05 08:05:41 [notice] 1#1: using the "epoll" event method
+2022/02/05 08:05:41 [notice] 1#1: nginx/1.21.6
+2022/02/05 08:05:41 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/02/05 08:05:41 [notice] 1#1: OS: Linux 5.10.60.1-microsoft-standard-WSL2
+2022/02/05 08:05:41 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/02/05 08:05:41 [notice] 1#1: start worker processes
+2022/02/05 08:05:41 [notice] 1#1: start worker process 22
+2022/02/05 08:05:41 [notice] 1#1: start worker process 23
+2022/02/05 08:05:41 [notice] 1#1: start worker process 24
+2022/02/05 08:05:41 [notice] 1#1: start worker process 25
+2022/02/05 08:05:41 [notice] 1#1: start worker process 26
+2022/02/05 08:05:41 [notice] 1#1: start worker process 27
+2022/02/05 08:05:45 [error] 22#22: *1 open() "/var/www/html/admin" failed (2: No such file or directory), client: 172.23.0.1, server: vasiukovich, request: "GET /admin HTTP/1.1", host: "vasiukovich"
+2022/02/05 08:05:48 [error] 22#22: *1 open() "/var/www/html/admin" failed (2: No such file or directory), client: 172.23.0.1, server: vasiukovich, request: "GET /admin HTTP/1.1", host: "vasiukovich"
+2022/02/05 08:07:18 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/02/05 08:07:18 [notice] 22#22: gracefully shutting down
+2022/02/05 08:07:18 [notice] 23#23: gracefully shutting down
+2022/02/05 08:07:18 [notice] 24#24: gracefully shutting down
+2022/02/05 08:07:18 [notice] 24#24: exiting
+2022/02/05 08:07:18 [notice] 25#25: gracefully shutting down
+2022/02/05 08:07:18 [notice] 27#27: gracefully shutting down
+2022/02/05 08:07:18 [notice] 26#26: gracefully shutting down
+2022/02/05 08:07:18 [notice] 22#22: exiting
+2022/02/05 08:07:18 [notice] 23#23: exiting
+2022/02/05 08:07:18 [notice] 24#24: exit
+2022/02/05 08:07:18 [notice] 25#25: exiting
+2022/02/05 08:07:18 [notice] 27#27: exiting
+2022/02/05 08:07:18 [notice] 26#26: exiting
+2022/02/05 08:07:18 [notice] 22#22: exit
+2022/02/05 08:07:18 [notice] 23#23: exit
+2022/02/05 08:07:18 [notice] 25#25: exit
+2022/02/05 08:07:18 [notice] 27#27: exit
+2022/02/05 08:07:18 [notice] 26#26: exit
+2022/02/05 08:07:18 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2022/02/05 08:07:18 [notice] 1#1: worker process 24 exited with code 0
+2022/02/05 08:07:18 [notice] 1#1: signal 29 (SIGIO) received
+2022/02/05 08:07:18 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2022/02/05 08:07:18 [notice] 1#1: worker process 22 exited with code 0
+2022/02/05 08:07:18 [notice] 1#1: signal 29 (SIGIO) received
+2022/02/05 08:07:18 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/02/05 08:07:18 [notice] 1#1: worker process 25 exited with code 0
+2022/02/05 08:07:18 [notice] 1#1: signal 29 (SIGIO) received
+2022/02/05 08:07:18 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2022/02/05 08:07:18 [notice] 1#1: worker process 27 exited with code 0
+2022/02/05 08:07:18 [notice] 1#1: signal 29 (SIGIO) received
+2022/02/05 08:07:18 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2022/02/05 08:07:18 [notice] 1#1: worker process 23 exited with code 0
+2022/02/05 08:07:18 [notice] 1#1: worker process 26 exited with code 0
+2022/02/05 08:07:18 [notice] 1#1: exit
+2022/02/05 08:07:25 [notice] 1#1: using the "epoll" event method
+2022/02/05 08:07:25 [notice] 1#1: nginx/1.21.6
+2022/02/05 08:07:25 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/02/05 08:07:25 [notice] 1#1: OS: Linux 5.10.60.1-microsoft-standard-WSL2
+2022/02/05 08:07:25 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/02/05 08:07:25 [notice] 1#1: start worker processes
+2022/02/05 08:07:25 [notice] 1#1: start worker process 22
+2022/02/05 08:07:25 [notice] 1#1: start worker process 23
+2022/02/05 08:07:25 [notice] 1#1: start worker process 24
+2022/02/05 08:07:25 [notice] 1#1: start worker process 25
+2022/02/05 08:07:25 [notice] 1#1: start worker process 26
+2022/02/05 08:07:25 [notice] 1#1: start worker process 27
+2022/02/05 08:07:27 [error] 22#22: *1 open() "/var/www/html/admin" failed (2: No such file or directory), client: 172.24.0.1, server: vasiukovich, request: "GET /admin HTTP/1.1", host: "vasiukovich"
+2022/02/05 08:08:02 [error] 22#22: *1 open() "/var/www/html/admin" failed (2: No such file or directory), client: 172.24.0.1, server: vasiukovich, request: "GET /admin HTTP/1.1", host: "vasiukovich"
+2022/02/05 08:49:36 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/02/05 08:49:36 [notice] 22#22: gracefully shutting down
+2022/02/05 08:49:36 [notice] 26#26: gracefully shutting down
+2022/02/05 08:49:36 [notice] 24#24: gracefully shutting down
+2022/02/05 08:49:36 [notice] 27#27: gracefully shutting down
+2022/02/05 08:49:36 [notice] 23#23: gracefully shutting down
+2022/02/05 08:49:36 [notice] 25#25: gracefully shutting down
+2022/02/05 08:49:36 [notice] 22#22: exiting
+2022/02/05 08:49:36 [notice] 26#26: exiting
+2022/02/05 08:49:36 [notice] 24#24: exiting
+2022/02/05 08:49:36 [notice] 27#27: exiting
+2022/02/05 08:49:36 [notice] 23#23: exiting
+2022/02/05 08:49:36 [notice] 25#25: exiting
+2022/02/05 08:49:36 [notice] 22#22: exit
+2022/02/05 08:49:36 [notice] 26#26: exit
+2022/02/05 08:49:36 [notice] 24#24: exit
+2022/02/05 08:49:36 [notice] 27#27: exit
+2022/02/05 08:49:36 [notice] 23#23: exit
+2022/02/05 08:49:36 [notice] 25#25: exit
+2022/02/05 08:49:36 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2022/02/05 08:49:36 [notice] 1#1: worker process 25 exited with code 0
+2022/02/05 08:49:36 [notice] 1#1: worker process 26 exited with code 0
+2022/02/05 08:49:36 [notice] 1#1: signal 29 (SIGIO) received
+2022/02/05 08:49:36 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/02/05 08:49:36 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2022/02/05 08:49:36 [notice] 1#1: worker process 27 exited with code 0
+2022/02/05 08:49:36 [notice] 1#1: signal 29 (SIGIO) received
+2022/02/05 08:49:36 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2022/02/05 08:49:36 [notice] 1#1: worker process 23 exited with code 0
+2022/02/05 08:49:36 [notice] 1#1: signal 29 (SIGIO) received
+2022/02/05 08:49:36 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2022/02/05 08:49:36 [notice] 1#1: worker process 22 exited with code 0
+2022/02/05 08:49:36 [notice] 1#1: signal 29 (SIGIO) received
+2022/02/05 08:49:36 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2022/02/05 08:49:36 [notice] 1#1: worker process 24 exited with code 0
+2022/02/05 08:49:36 [notice] 1#1: exit
+2022/02/05 08:49:46 [emerg] 1#1: invalid number of arguments in "location" directive in /etc/nginx/conf.d/dev.conf:10
+2022/02/05 08:50:25 [notice] 1#1: using the "epoll" event method
+2022/02/05 08:50:25 [notice] 1#1: nginx/1.21.6
+2022/02/05 08:50:25 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/02/05 08:50:25 [notice] 1#1: OS: Linux 5.10.60.1-microsoft-standard-WSL2
+2022/02/05 08:50:25 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/02/05 08:50:25 [notice] 1#1: start worker processes
+2022/02/05 08:50:25 [notice] 1#1: start worker process 23
+2022/02/05 08:50:25 [notice] 1#1: start worker process 24
+2022/02/05 08:50:25 [notice] 1#1: start worker process 25
+2022/02/05 08:50:25 [notice] 1#1: start worker process 26
+2022/02/05 08:50:25 [notice] 1#1: start worker process 27
+2022/02/05 08:50:25 [notice] 1#1: start worker process 28
+2022/02/05 08:50:47 [error] 23#23: *1 open() "/var/www/html/admin" failed (2: No such file or directory), client: 172.25.0.1, server: vasiukovich, request: "GET /admin HTTP/1.1", host: "vasiukovich"
+2022/02/05 08:50:47 [error] 23#23: *1 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.25.0.1, server: vasiukovich, request: "GET /favicon.ico HTTP/1.1", host: "vasiukovich", referrer: "http://vasiukovich/admin"
+2022/02/05 08:51:20 [error] 24#24: *4 open() "/var/www/html/admin" failed (2: No such file or directory), client: 172.25.0.1, server: vasiukovich, request: "GET /admin HTTP/1.1", host: "vasiukovich"
+2022/02/05 08:53:26 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/02/05 08:53:26 [notice] 23#23: gracefully shutting down
+2022/02/05 08:53:26 [notice] 24#24: gracefully shutting down
+2022/02/05 08:53:26 [notice] 26#26: gracefully shutting down
+2022/02/05 08:53:26 [notice] 27#27: gracefully shutting down
+2022/02/05 08:53:26 [notice] 28#28: gracefully shutting down
+2022/02/05 08:53:26 [notice] 28#28: exiting
+2022/02/05 08:53:26 [notice] 25#25: gracefully shutting down
+2022/02/05 08:53:26 [notice] 25#25: exiting
+2022/02/05 08:53:26 [notice] 23#23: exiting
+2022/02/05 08:53:26 [notice] 24#24: exiting
+2022/02/05 08:53:26 [notice] 26#26: exiting
+2022/02/05 08:53:26 [notice] 27#27: exiting
+2022/02/05 08:53:26 [notice] 28#28: exit
+2022/02/05 08:53:26 [notice] 25#25: exit
+2022/02/05 08:53:26 [notice] 23#23: exit
+2022/02/05 08:53:26 [notice] 24#24: exit
+2022/02/05 08:53:26 [notice] 26#26: exit
+2022/02/05 08:53:26 [notice] 27#27: exit
+2022/02/05 08:53:26 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2022/02/05 08:53:26 [notice] 1#1: worker process 26 exited with code 0
+2022/02/05 08:53:26 [notice] 1#1: signal 29 (SIGIO) received
+2022/02/05 08:53:26 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2022/02/05 08:53:26 [notice] 1#1: worker process 24 exited with code 0
+2022/02/05 08:53:26 [notice] 1#1: worker process 25 exited with code 0
+2022/02/05 08:53:26 [notice] 1#1: worker process 27 exited with code 0
+2022/02/05 08:53:26 [notice] 1#1: signal 29 (SIGIO) received
+2022/02/05 08:53:26 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/02/05 08:53:26 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2022/02/05 08:53:26 [notice] 1#1: worker process 23 exited with code 0
+2022/02/05 08:53:26 [notice] 1#1: signal 29 (SIGIO) received
+2022/02/05 08:53:26 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2022/02/05 08:53:26 [notice] 1#1: worker process 28 exited with code 0
+2022/02/05 08:53:26 [notice] 1#1: exit
+2022/02/05 08:53:30 [emerg] 1#1: pcre2_compile() failed: unrecognized character after (? or (?- in "/admin(?/)" at "/)" in /etc/nginx/conf.d/dev.conf:10
+2022/02/05 08:54:05 [notice] 1#1: using the "epoll" event method
+2022/02/05 08:54:05 [notice] 1#1: nginx/1.21.6
+2022/02/05 08:54:05 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/02/05 08:54:05 [notice] 1#1: OS: Linux 5.10.60.1-microsoft-standard-WSL2
+2022/02/05 08:54:05 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/02/05 08:54:05 [notice] 1#1: start worker processes
+2022/02/05 08:54:05 [notice] 1#1: start worker process 23
+2022/02/05 08:54:05 [notice] 1#1: start worker process 24
+2022/02/05 08:54:05 [notice] 1#1: start worker process 25
+2022/02/05 08:54:05 [notice] 1#1: start worker process 26
+2022/02/05 08:54:05 [notice] 1#1: start worker process 27
+2022/02/05 08:54:05 [notice] 1#1: start worker process 28
+2022/02/05 08:54:11 [error] 23#23: *1 open() "/var/www/html/admin" failed (2: No such file or directory), client: 172.26.0.1, server: vasiukovich, request: "GET /admin HTTP/1.1", host: "vasiukovich"
+2022/02/05 08:56:56 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/02/05 08:56:56 [notice] 23#23: gracefully shutting down
+2022/02/05 08:56:56 [notice] 23#23: exiting
+2022/02/05 08:56:56 [notice] 24#24: gracefully shutting down
+2022/02/05 08:56:56 [notice] 24#24: exiting
+2022/02/05 08:56:56 [notice] 27#27: gracefully shutting down
+2022/02/05 08:56:56 [notice] 27#27: exiting
+2022/02/05 08:56:56 [notice] 25#25: gracefully shutting down
+2022/02/05 08:56:56 [notice] 26#26: gracefully shutting down
+2022/02/05 08:56:56 [notice] 28#28: gracefully shutting down
+2022/02/05 08:56:56 [notice] 23#23: exit
+2022/02/05 08:56:56 [notice] 24#24: exit
+2022/02/05 08:56:56 [notice] 27#27: exit
+2022/02/05 08:56:56 [notice] 25#25: exiting
+2022/02/05 08:56:56 [notice] 26#26: exiting
+2022/02/05 08:56:56 [notice] 28#28: exiting
+2022/02/05 08:56:56 [notice] 25#25: exit
+2022/02/05 08:56:56 [notice] 26#26: exit
+2022/02/05 08:56:56 [notice] 28#28: exit
+2022/02/05 08:56:57 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/02/05 08:56:57 [notice] 1#1: worker process 25 exited with code 0
+2022/02/05 08:56:57 [notice] 1#1: signal 29 (SIGIO) received
+2022/02/05 08:56:57 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2022/02/05 08:56:57 [notice] 1#1: worker process 23 exited with code 0
+2022/02/05 08:56:57 [notice] 1#1: worker process 24 exited with code 0
+2022/02/05 08:56:57 [notice] 1#1: worker process 26 exited with code 0
+2022/02/05 08:56:57 [notice] 1#1: worker process 28 exited with code 0
+2022/02/05 08:56:57 [notice] 1#1: signal 29 (SIGIO) received
+2022/02/05 08:56:57 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2022/02/05 08:56:57 [notice] 1#1: worker process 27 exited with code 0
+2022/02/05 08:56:57 [notice] 1#1: exit
+2022/02/05 08:57:01 [notice] 1#1: using the "epoll" event method
+2022/02/05 08:57:01 [notice] 1#1: nginx/1.21.6
+2022/02/05 08:57:01 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/02/05 08:57:01 [notice] 1#1: OS: Linux 5.10.60.1-microsoft-standard-WSL2
+2022/02/05 08:57:01 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/02/05 08:57:01 [notice] 1#1: start worker processes
+2022/02/05 08:57:01 [notice] 1#1: start worker process 23
+2022/02/05 08:57:01 [notice] 1#1: start worker process 24
+2022/02/05 08:57:01 [notice] 1#1: start worker process 25
+2022/02/05 08:57:01 [notice] 1#1: start worker process 26
+2022/02/05 08:57:01 [notice] 1#1: start worker process 27
+2022/02/05 08:57:01 [notice] 1#1: start worker process 28
+2022/02/05 08:59:54 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/02/05 08:59:54 [notice] 23#23: gracefully shutting down
+2022/02/05 08:59:54 [notice] 24#24: gracefully shutting down
+2022/02/05 08:59:54 [notice] 25#25: gracefully shutting down
+2022/02/05 08:59:54 [notice] 27#27: gracefully shutting down
+2022/02/05 08:59:54 [notice] 26#26: gracefully shutting down
+2022/02/05 08:59:54 [notice] 28#28: gracefully shutting down
+2022/02/05 08:59:54 [notice] 23#23: exiting
+2022/02/05 08:59:54 [notice] 24#24: exiting
+2022/02/05 08:59:54 [notice] 23#23: exit
+2022/02/05 08:59:54 [notice] 25#25: exiting
+2022/02/05 08:59:54 [notice] 27#27: exiting
+2022/02/05 08:59:54 [notice] 26#26: exiting
+2022/02/05 08:59:54 [notice] 28#28: exiting
+2022/02/05 08:59:54 [notice] 24#24: exit
+2022/02/05 08:59:54 [notice] 25#25: exit
+2022/02/05 08:59:54 [notice] 27#27: exit
+2022/02/05 08:59:54 [notice] 26#26: exit
+2022/02/05 08:59:54 [notice] 28#28: exit
+2022/02/05 08:59:54 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/02/05 08:59:54 [notice] 1#1: worker process 23 exited with code 0
+2022/02/05 08:59:54 [notice] 1#1: worker process 24 exited with code 0
+2022/02/05 08:59:54 [notice] 1#1: worker process 25 exited with code 0
+2022/02/05 08:59:54 [notice] 1#1: worker process 26 exited with code 0
+2022/02/05 08:59:54 [notice] 1#1: worker process 28 exited with code 0
+2022/02/05 08:59:54 [notice] 1#1: signal 29 (SIGIO) received
+2022/02/05 08:59:54 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2022/02/05 08:59:54 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2022/02/05 08:59:54 [notice] 1#1: worker process 27 exited with code 0
+2022/02/05 08:59:54 [notice] 1#1: exit
+2022/02/05 08:59:58 [notice] 1#1: using the "epoll" event method
+2022/02/05 08:59:58 [notice] 1#1: nginx/1.21.6
+2022/02/05 08:59:58 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/02/05 08:59:58 [notice] 1#1: OS: Linux 5.10.60.1-microsoft-standard-WSL2
+2022/02/05 08:59:58 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/02/05 08:59:58 [notice] 1#1: start worker processes
+2022/02/05 08:59:58 [notice] 1#1: start worker process 23
+2022/02/05 08:59:58 [notice] 1#1: start worker process 24
+2022/02/05 08:59:58 [notice] 1#1: start worker process 25
+2022/02/05 08:59:58 [notice] 1#1: start worker process 26
+2022/02/05 08:59:58 [notice] 1#1: start worker process 27
+2022/02/05 08:59:58 [notice] 1#1: start worker process 28
+2022/02/05 09:00:10 [error] 23#23: *1 open() "/var/www/html/admindwqdqw" failed (2: No such file or directory), client: 172.28.0.1, server: vasiukovich, request: "GET /admindwqdqw HTTP/1.1", host: "vasiukovich"
+2022/02/05 09:06:49 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/02/05 09:06:49 [notice] 24#24: gracefully shutting down
+2022/02/05 09:06:49 [notice] 25#25: gracefully shutting down
+2022/02/05 09:06:49 [notice] 26#26: gracefully shutting down
+2022/02/05 09:06:49 [notice] 26#26: exiting
+2022/02/05 09:06:49 [notice] 23#23: gracefully shutting down
+2022/02/05 09:06:49 [notice] 27#27: gracefully shutting down
+2022/02/05 09:06:49 [notice] 28#28: gracefully shutting down
+2022/02/05 09:06:49 [notice] 24#24: exiting
+2022/02/05 09:06:49 [notice] 25#25: exiting
+2022/02/05 09:06:49 [notice] 26#26: exit
+2022/02/05 09:06:49 [notice] 23#23: exiting
+2022/02/05 09:06:49 [notice] 27#27: exiting
+2022/02/05 09:06:49 [notice] 28#28: exiting
+2022/02/05 09:06:49 [notice] 24#24: exit
+2022/02/05 09:06:49 [notice] 25#25: exit
+2022/02/05 09:06:49 [notice] 23#23: exit
+2022/02/05 09:06:49 [notice] 27#27: exit
+2022/02/05 09:06:49 [notice] 28#28: exit
+2022/02/05 09:06:49 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2022/02/05 09:06:49 [notice] 1#1: worker process 24 exited with code 0
+2022/02/05 09:06:49 [notice] 1#1: signal 29 (SIGIO) received
+2022/02/05 09:06:49 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2022/02/05 09:06:49 [notice] 1#1: worker process 23 exited with code 0
+2022/02/05 09:06:49 [notice] 1#1: worker process 25 exited with code 0
+2022/02/05 09:06:49 [notice] 1#1: worker process 26 exited with code 0
+2022/02/05 09:06:49 [notice] 1#1: worker process 28 exited with code 0
+2022/02/05 09:06:49 [notice] 1#1: signal 29 (SIGIO) received
+2022/02/05 09:06:49 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2022/02/05 09:06:49 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2022/02/05 09:06:49 [notice] 1#1: worker process 27 exited with code 0
+2022/02/05 09:06:49 [notice] 1#1: exit
+2022/02/05 09:06:55 [notice] 1#1: using the "epoll" event method
+2022/02/05 09:06:55 [notice] 1#1: nginx/1.21.6
+2022/02/05 09:06:55 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/02/05 09:06:55 [notice] 1#1: OS: Linux 5.10.60.1-microsoft-standard-WSL2
+2022/02/05 09:06:55 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/02/05 09:06:55 [notice] 1#1: start worker processes
+2022/02/05 09:06:55 [notice] 1#1: start worker process 23
+2022/02/05 09:06:55 [notice] 1#1: start worker process 24
+2022/02/05 09:06:55 [notice] 1#1: start worker process 25
+2022/02/05 09:06:55 [notice] 1#1: start worker process 26
+2022/02/05 09:06:55 [notice] 1#1: start worker process 27
+2022/02/05 09:06:55 [notice] 1#1: start worker process 28
+2022/02/05 09:13:55 [error] 26#26: *5 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.29.0.1, server: vasiukovich, request: "GET /favicon.ico HTTP/1.1", host: "vasiukovich", referrer: "http://vasiukovich/"
+2022/02/05 11:43:52 [notice] 1#1: using the "epoll" event method
+2022/02/05 11:43:52 [notice] 1#1: nginx/1.21.6
+2022/02/05 11:43:52 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/02/05 11:43:52 [notice] 1#1: OS: Linux 5.10.60.1-microsoft-standard-WSL2
+2022/02/05 11:43:52 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/02/05 11:43:52 [notice] 1#1: start worker processes
+2022/02/05 11:43:52 [notice] 1#1: start worker process 22
+2022/02/05 11:43:52 [notice] 1#1: start worker process 23
+2022/02/05 11:43:52 [notice] 1#1: start worker process 24
+2022/02/05 11:43:52 [notice] 1#1: start worker process 25
+2022/02/05 11:43:52 [notice] 1#1: start worker process 26
+2022/02/05 11:43:52 [notice] 1#1: start worker process 27
+2022/02/05 11:43:57 [error] 22#22: *1 open() "/var/www/html/ewffew" failed (2: No such file or directory), client: 172.29.0.1, server: vasiukovich, request: "GET /ewffew HTTP/1.1", host: "vasiukovich"
+2022/02/05 11:43:57 [error] 23#23: *2 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.29.0.1, server: vasiukovich, request: "GET /favicon.ico HTTP/1.1", host: "vasiukovich", referrer: "http://vasiukovich/ewffew"
